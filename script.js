@@ -28,8 +28,8 @@ var icon = document.getElementById('icon');
 icon.onclick = function () {
   document.body.classList.toggle('dark');
   if (document.body.classList.contains('dark')) {
-    icon.className = 'bi mi bi-brightness-high'; // Change to sun icon class when dark theme is active
+    icon.className = 'bi mi bi-moon-stars '; // Change to sun icon class when dark theme is active
   } else {
-    icon.className = 'bi ni bi-moon-stars'; // Change back to moon icon class when dark theme is off
+    icon.className = 'bi ni bi-brightness-high '; // Change back to moon icon class when dark theme is off
   }
 };
